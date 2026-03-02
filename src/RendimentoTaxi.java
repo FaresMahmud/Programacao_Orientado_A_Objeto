@@ -7,7 +7,7 @@ public class RendimentoTaxi {
 
             final double PRECO_COMBUSTIVEL = 4.90; // como o valor não muda, declaro como final
 
-            // variaveis usadas, bom declarar semelhantes na mesma linha pra manter o codigo
+            // variaveis usadas, bom declarar semelhantes na mesma linha para manter o codigo
             // mais limpo
             double odometroInicio, odometroFinal;
             double litrosGastos, valorRecebido;
