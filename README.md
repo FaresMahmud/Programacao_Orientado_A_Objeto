@@ -1,56 +1,55 @@
-# Programação Orientada a Objetos
+# Programação Orientada a Objetos (Java)
 
-Esse repositório foi criado para eu organizar todos os códigos que estou desenvolvendo na disciplina de **Programação Orientada a Objetos** e também os exercícios que faço estudando por fora.
+Repositório com exercícios e exemplos da disciplina de Programação Orientada a Objetos, organizado para facilitar navegação e execução local.
 
-A ideia é usar esse espaço como um registro da minha evolução na programação, principalmente em Java, que é a linguagem que estou utilizando na faculdade.
+## Estrutura
 
----
+```
+src/main/java/poo/exercicios/
+  Calculadora.java
+  PessoaCadastro.java
+  ContaBancariaApp.java
+  ProdutoEstoque.java
+  AlunoNotas.java
+  RetanguloApp.java
+  CarroApp.java
+  AgendaContato.java
+  TrianguloApp.java
+  DescontoCompra.java
+  ParImpar.java
+  RendimentoTaxi.java
+```
 
-## 🎯 Objetivo
+## Requisitos
 
-Guardar e organizar:
+- JDK 8 ou superior
 
-- Códigos feitos em aula  
-- Exercícios passados pelo professor  
-- Testes e exemplos que faço para entender melhor os conceitos  
-- Pequenos desafios que resolvo estudando sozinho  
+## Como executar
 
-Quero acompanhar minha evolução e poder revisitar esses códigos no futuro para ver o quanto evoluí.
+Exemplo usando `Calculadora`:
 
----
+```
+javac -d out src/main/java/poo/exercicios/Calculadora.java
+java -cp out poo.exercicios.Calculadora
+```
 
-## 📚 O que estou aprendendo aqui
+Para executar outro exercício, troque o nome da classe no comando `javac` e no `java`.
 
-Alguns dos principais conceitos que estou estudando em POO:
+## Exercícios
 
-- Classes e Objetos  
-- Atributos e Métodos  
-- Encapsulamento  
-- Construtores  
-- Herança  
-- Polimorfismo  
-- Sobrescrita e Sobrecarga de métodos  
-- Organização de código em pacotes  
+- `Calculadora`: operações básicas com menu de opções.
+- `PessoaCadastro`: cadastro simples com getters e setters.
+- `ContaBancariaApp`: depósitos e saques com validação.
+- `ProdutoEstoque`: controle de estoque e valor total.
+- `AlunoNotas`: média e situação do aluno.
+- `RetanguloApp`: cálculo de área e perímetro.
+- `CarroApp`: acelerar e frear com limite de velocidade.
+- `AgendaContato`: agenda simples com contatos.
+- `TrianguloApp`: validação e tipo do triângulo.
+- `DescontoCompra`: desconto para compras acima de um valor.
+- `ParImpar`: verificação de número par ou ímpar.
+- `RendimentoTaxi`: cálculo de média de consumo e lucro líquido.
 
-Conforme eu for avançando na matéria, vou adicionando novos exemplos e códigos mais completos.
+## Licença
 
----
-
-## 💻 Linguagem utilizada
-
-Atualmente estou utilizando:
-
-- Java
-
----
-
-## 🚀 Sobre mim
-
-Sou estudante da área de tecnologia e estou construindo minha base em programação.  
-Esse repositório faz parte do meu processo de aprendizado.
-
-Se você estiver aprendendo também, fique à vontade para acompanhar ou sugerir melhorias!
-
----
-
-📌 Repositório em constante atualização.
+MIT. Consulte o arquivo `LICENSE`.
