@@ -22,6 +22,15 @@ Cada classe sobrescreve o método `mostrarDados()`, exibindo informações espec
 
 Na classe `Main`, é criado um array de `Pessoa` contendo diferentes tipos de objetos (`Aluno` e `Professor`), demonstrando polimorfismo na prática.
 
+## ⚙️ Como executar
+
+No terminal, a partir da pasta `PessoaAluno`:
+
+```
+javac -d out src/pessoaAluno/*.java
+java -cp out pessoaAluno.Main
+```
+
 ## 🧠 Objetivo
 
 Fixar os conceitos fundamentais de herança e entender como diferentes objetos podem ter comportamentos distintos utilizando o mesmo método.
