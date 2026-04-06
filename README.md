@@ -1,8 +1,19 @@
 # Programação Orientada a Objetos (Java)
 
-Repositório com exercícios e exemplos da disciplina de Programação Orientada a Objetos, organizado para facilitar navegação e execução local.
+Repositório com exercícios e exemplos da disciplina de **Programação Orientada a Objetos**, organizado para facilitar navegação e execução local.
 
-## Estrutura
+## 🎯 Objetivo
+
+- Códigos feitos em aula
+- Exercícios passados pelo professor
+- Testes e exemplos para fixar conceitos
+- Pequenos desafios de estudo individual
+
+## 📚 Projetos
+
+- `PessoaAluno`: exemplo simples de herança e polimorfismo com `Pessoa`, `Aluno` e `Professor`. Consulte o README do projeto para detalhes.
+
+## 🧩 Estrutura
 
 ```
 src/main/java/poo/exercicios/
@@ -20,11 +31,11 @@ src/main/java/poo/exercicios/
   RendimentoTaxi.java
 ```
 
-## Requisitos
+## ✅ Requisitos
 
 - JDK 8 ou superior
 
-## Como executar
+## ▶️ Como executar
 
 Exemplo usando `Calculadora`:
 
@@ -35,7 +46,7 @@ java -cp out poo.exercicios.Calculadora
 
 Para executar outro exercício, troque o nome da classe no comando `javac` e no `java`.
 
-## Exercícios
+## 📝 Exercícios
 
 - `Calculadora`: operações básicas com menu de opções.
 - `PessoaCadastro`: cadastro simples com getters e setters.
@@ -50,6 +61,11 @@ Para executar outro exercício, troque o nome da classe no comando `javac` e no 
 - `ParImpar`: verificação de número par ou ímpar.
 - `RendimentoTaxi`: cálculo de média de consumo e lucro líquido.
 
-## Licença
+## 🚀 Sobre mim
 
-MIT. Consulte o arquivo `LICENSE`.
+Sou estudante da área de tecnologia e estou construindo minha base em programação.
+Este repositório faz parte do meu processo de aprendizado.
+
+Se você estiver aprendendo também, fique à vontade para acompanhar ou sugerir melhorias.
+
+📌 Repositório em constante atualização.
