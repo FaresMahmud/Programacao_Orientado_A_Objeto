@@ -1,36 +1,38 @@
-# 📚 Sistema Simples de Herança em Java
+# Sistema Simples de Heranca em Java
 
-Este projeto foi desenvolvido para praticar conceitos de **Programação Orientada a Objetos (POO)** em Java.
+Este projeto foi organizado em estrutura Java padrao para praticar conceitos de Programacao Orientada a Objetos com as classes `Pessoa`, `Aluno` e `Professor`.
 
-## 🚀 Conceitos aplicados
+## Conceitos aplicados
 
-* Herança (`extends`)
-* Sobrescrita de métodos (`@Override`)
-* Polimorfismo
-* Uso de `super` para reaproveitamento de código
+- Heranca com `extends`
+- Sobrescrita de metodos com `@Override`
+- Encapsulamento com atributos privados e getters/setters
+- Reaproveitamento de codigo com `super`
 
-## 🧩 Estrutura
+## Estrutura
 
-O sistema possui uma classe base `Pessoa` e duas subclasses:
+```text
+PessoaAluno/
+  pom.xml
+  src/
+    main/
+      java/
+        pessoaaluno/
+          Main.java
+          Pessoa.java
+          Aluno.java
+          Professor.java
+```
 
-* `Aluno`
-* `Professor`
-
-Cada classe sobrescreve o método `mostrarDados()`, exibindo informações específicas.
-
-## ▶️ Execução
-
-Na classe `Main`, é criado um array de `Pessoa` contendo diferentes tipos de objetos (`Aluno` e `Professor`), demonstrando polimorfismo na prática.
-
-## ⚙️ Como executar
+## Como executar
 
 No terminal, a partir da pasta `PessoaAluno`:
 
-```
-javac -d out src/pessoaAluno/*.java
-java -cp out pessoaAluno.Main
+```bash
+javac -d out src/main/java/pessoaaluno/*.java
+java -cp out pessoaaluno.Main
 ```
 
-## 🧠 Objetivo
+## Objetivo
 
-Fixar os conceitos fundamentais de herança e entender como diferentes objetos podem ter comportamentos distintos utilizando o mesmo método.
+Fixar os conceitos fundamentais de heranca, especializacao de classes e comportamento especifico em subclasses.
