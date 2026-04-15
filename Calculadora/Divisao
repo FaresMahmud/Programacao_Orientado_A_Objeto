@@ -1,0 +1,13 @@
+package calculadora;
+
+public class Divisao {
+	
+	public double calculaDivisao(double primeiroNumero, double segundoNumero) {
+		if (primeiroNumero == 0 || segundoNumero == 0) {
+			throw new RuntimeException("Erro matemático: impossível dividir por zero!");
+		} else {
+			return primeiroNumero / segundoNumero;
+		}
+	}
+
+}
