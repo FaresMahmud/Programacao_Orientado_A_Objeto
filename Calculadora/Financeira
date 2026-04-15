@@ -1,0 +1,10 @@
+package calculadora;
+
+import java.math.BigDecimal;
+
+public class Financeira {
+
+    public BigDecimal dividir(BigDecimal num1, BigDecimal num2) {
+        return num1.divide(num2);
+    }
+}
